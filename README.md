@@ -1,30 +1,20 @@
 # restaurant-management-system
-Modules
-Admin :
-- LOG IN
-- INSERT NEW MENU
-- VIEW LIST OF MENU
-- SEARCH MENU
-- UPDATE MENU INFORMATIONS
-- DELETE MENU
-Customers :
-- REGISTER
-- LOG IN
-- INSERT NEW ORDER
-- VIEW LIST OF ORDERS
-- SEARCH ORDER
-- UPDATE ORDER
-- DELETE ORDER
-Order :
-- SHOW THE SUB TOTAL BY EACH MENU ID
-- SHOW THE TOTAL THAT CUSTOMER MUST PAY 
-6
-Ratings :
-- CUSTOMER CAN INSERT RATING
-- ADMIN CAN VIEW RATINGS
-- ADMIN CAN SEARCH RATINGS
-Report :
-- ADMIN CAN VIEW MIN & MAX RATES GIVEN BY THE CUSTOMERS
-Target audience :
-All types of customers and admin is in charge of the whole restaurant. There is only
+Modules : Admin, Customers, Order, Ratings, Report
+
+          Admin - Log in, Insert/View/Search/Update/Delete MENU
+
+          Customer - Register, Log in, Insert/View/Search/Update/Delete ORDER
+
+          Order - Calculate sub total by MENU ID 
+			    - Calculate total for customer to pay
+
+          Ratings - Customer can rate, Admin can view and search ratings
+
+          Report - Admin view min/max ratings given
+
+Target audience : All types of customers and admin is in charge of the whole restaurant. There is only
 one admin for this system.
+
+Developed using : 
+            C++ (Visual Studio)
+            SQL (PhpMyAdmin)
