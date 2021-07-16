@@ -6,7 +6,7 @@ Modules : Admin, Customers, Order, Ratings, Report
           Customer - Register, Log in, Insert/View/Search/Update/Delete ORDER
 
           Order - Calculate sub total by MENU ID 
-		- Calculate total for customer to pay
+			- Calculate total for customer to pay
 
           Ratings - Customer can rate, Admin can view and search ratings
 
